@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{3a1d0474-c368-407c-a28d-ca1b8898204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{f23637f5-0771-4064-a25f-fbe52256b902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{b8d10e5a-8152-44aa-a8ab-f54f2bcc0a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{d954bb3a-1f06-42db-95d8-1e4bb87a39c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{d866da53-a2e8-4c9c-8915-1ca707bb4780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{19dbe7a8-8a28-4dcf-9171-d3438e02d06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\ColorLCD">
+      <UniqueIdentifier>{740e558f-3be7-4f3b-b7b8-4ffe614357d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\ColorLCD">
+      <UniqueIdentifier>{d0f855d9-cac3-4148-8f9f-ee285f08acba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PIDcontroller.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".PIDcontroller.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PIDController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSystem.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMenu.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="PIDMenu.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPage.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="NokiaLCD.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="EEPromLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PIDMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPointMenu.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="RollingAverage.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RollingAverageF.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Encoder.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueue.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnManager.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorLCD.h">
+      <Filter>Header Files\UI\ColorLCD</Filter>
+    </ClInclude>
+    <ClInclude Include="Headless.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorMenu.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPage.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSystem.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="PIDMenu.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="NokiaLCD.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="EEPromLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PIDMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPointMenu.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="Encoder.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingAverageF.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueue.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingAverage.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnManager.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorLCD.cpp">
+      <Filter>Source Files\UI\ColorLCD</Filter>
+    </ClCompile>
+    <ClCompile Include="Headless.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
